@@ -1,0 +1,40 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+margin: 0;
+}
+
+.container{
+    background: rgb(1, 15, 36);
+    width: 50%;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.quizs{
+    display: flex;
+    gap:3rem;
+    justify-content: center;
+}
+
+.answersOption{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button{
+    border: none;
+    border: 0.2rem solid rgb(71, 147, 170);
+    border-radius: 10px;
+    padding: 10px 0;
+    width: 12rem;
+    text-align: start;
+    text-indent: 8px;
+    cursor: pointer;
+}
